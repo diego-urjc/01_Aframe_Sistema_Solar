@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.5.4/dist/aframe-extras.min.js"></script>
+  </head>
+  <body>
+    <a-scene xr-mode-ui="XRMode: xr">
+
+        <a-assets>
+            <img id="tierra" src="tierra.png">
+            <img id="luna" src="luna.png">
+            <img id="mercurio" src="mercurio.png">
+            <img id="venus" src="venus.png">
+            <img id="marte" src="marte.png">
+            <img id="jupiter" src="jupiter.png">
+            <img id="ganimedes" src="ganimedes.png">
+            <img id="saturno" src="saturno.png">
+            <img id="urano" src="urano.png">
+            <img id="neptuno" src="neptuno.png">
+            <img id="galaxia" src="galaxia.png">
+
+        </a-asset-item>
+        </a-assets>
+        
+
+        <a-entity geometry="primitive: sphere; radius: 3"
+            material="color: #ffdd40; emissive: #ffdd40;"
+            light="type: point; color: #FFFFFF; intensity: 1"
+            position="0 0 0"
+            animation="property: rotation; from: 0 0 0; to: 0 360 0;
+            easing: linear; loop: true;  dur: 35200;"></a-entity>
+
+        <a-entity animation="property: rotation; from: 0 0 0; to: 0 360 0;
+            easing: linear; loop: true;  dur: 24000;">
+
+
+            <a-entity geometry="primitive: sphere; radius: 0.0175"
+                material= "src: #mercurio ; color: #9aa9a9;"
+                position="4 0 0"
+                animation="property: rotation; from: 0 0 0; to: 0 360 0;
+                easing: linear; loop: true;  dur: 82000;" ></a-entity> <!--Mercurio-->
+
+        </a-entity>
+
+        <a-entity animation="property: rotation; from: 0 0 0; to: 0 360 0;
+            easing: linear; loop: true;  dur: 62000;">
+
+            <a-entity geometry="primitive: sphere; radius: 0.0435"
+                material= "src: #venus ; color: #9aa9a9;"
+                position="7 0 0"
+                animation="property: rotation; from: 0 0 0; to: 0 360 0;
+                easing: linear; loop: true;  dur: 340000;"></a-entity> <!--Venus-->
+
+        </a-entity>
+
+        <a-entity animation="property: rotation; from: 0 0 0; to: 0 360 0;
+            easing: linear; loop: true;  dur: 100000;">
+            
+            <a-entity geometry="primitive: sphere; radius: 0.046"
+                material= "src: #tierra ; color: #9aa9a9;"
+                position="10 0 0"
+                animation="property: rotation; from: 0 0 0; to: 0 360 0;
+                easing: linear; loop: true;  dur: 1390;"><!--Tierra-->
+
+                <a-entity animation="property: rotation; from: 0 0 0; to: 0 360 0;
+                easing: linear; loop: true;  dur: 10000;">
+
+                <a-entity geometry="primitive: sphere; radius: 0.0125"
+                material= "src: #luna ; color: #9aa9a9;"
+                position="0.55 0 0"
+                animation="property: rotation; from: 0 0 0; to: 0 360 0;
+                easing: linear; loop: true;  dur: 38000;"></a-entity> <!--Luna-->
+
+                </a-entity>
+            </a-entity> 
+        </a-entity>
+        <a-entity animation="property: rotation; from: 0 0 0; to: 0 360 0;
+            easing: linear; loop: true;  dur: 188000;">
+            
+            <a-entity geometry="primitive: sphere; radius: 0.0245"
+                material= "src: #marte ; color: #9aa9a9;"
+                position="15 0 0"
+                animation="property: rotation; from: 0 0 0; to: 0 360 0;
+                easing: linear; loop: true;  dur: 1450;"></a-entity> <!--Marte-->
+        </a-entity>
+        
+        <a-entity animation="property: rotation; from: 0 0 0; to: 0 360 0;
+            easing: linear; loop: true;  dur: 1186000;">
+
+            <a-entity geometry="primitive: sphere; radius: 0.5"
+                material= "src: #jupiter ; color: #9aa9a9;"
+                position="52 0 0"
+                animation="property: rotation; from: 0 0 0; to: 0 360 0;
+                easing: linear; loop: true;  dur: 580;"> <!--Júpiter-->
+
+
+                <a-entity animation="property: rotation; from: 0 0 0; to: 0 360 0;
+                easing: linear; loop: true;  dur: 26200;">
+
+                <a-entity geometry="primitive: sphere; radius: 0.019"
+                material= "src: #ganimedes ; color: #9aa9a9;"
+                position="0.55 0 0"
+                animation="property: rotation; from: 0 0 0; to: 0 360 0;
+                easing: linear; loop: true;  dur: 10000;"></a-entity> <!--Ganimedes-->
+
+                </a-entity>
+            </a-entity> 
+        </a-entity>
+
+        <a-entity animation="property: rotation; from: 0 0 0; to: 0 360 0;
+        easing: linear; loop: true;  dur: 2946000;">
+
+            <a-entity geometry="primitive: sphere; radius: 0.42"
+                material= "src: #saturno ; color: #9aa9a9;"
+                position="95 0 0"
+                animation="property: rotation; from: 0 0 0; to: 0 360 0;
+                easing: linear; loop: true;  dur: 620;"></a-entity> <!--Saturno-->
+
+        </a-entity>
+        <a-entity animation="property: rotation; from: 0 0 0; to: 0 360 0;
+        easing: linear; loop: true;  dur: 8401000;">
+            <a-entity geometry="primitive: sphere; radius: 0.18"
+                material= "src: #urano ; color: #9aa9a9;"
+                position="190 0 0"
+                animation="property: rotation; from: 0 0 0; to: 0 360 0;
+                easing: linear; loop: true;  dur: 1200;"></a-entity> <!--Urano-->
+
+        </a-entity>
+
+        <a-entity animation="property: rotation; from: 0 0 0; to: 0 360 0;
+        easing: linear; loop: true;  dur: 16479000;">
+            <a-entity geometry="primitive: sphere; radius: 0.175"
+                material= "src: #neptuno ; color: #9aa9a9;"
+                position="300 0 0"
+                animation="property: rotation; from: 0 0 0; to: 0 360 0;
+                easing: linear; loop: true;  dur: 920;"></a-entity> <!--Neptuno-->
+        </a-entity>
+        
+        
+        
+        <a-entity position="0 0 10" movement-controls="fly: true">
+            <a-entity camera look-controls wasd-controls position="0 1.3 3"></a-entity>
+        </a-entity>
+                    
+        <a-sky  material="src: #galaxia" hide-on-enter-ar  ></a-sky>
+              
+    </a-scene>
+  </body>
+</html>
