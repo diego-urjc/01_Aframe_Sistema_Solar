@@ -14,39 +14,60 @@
             position="0 0 0"></a-entity>
 
         <a-entity animation="property: rotation; from: 0 0 0; to: 0 360 0;
-            easing: linear; loop: true;  dur: 20000;">
+            easing: linear; loop: true;  dur: 40000;">
+
 
             <a-entity geometry="primitive: sphere; radius: 0.0175"
                 material="color: #ffdd40; color: #9aa9a9;"
-                position="4 0 0" ></a-entity>
+                position="4 0 0" ></a-entity> <!--Mercurio-->
 
             <a-entity geometry="primitive: sphere; radius: 0.0435"
                 material="color: #ffdd40; color: #9aa9a9;"
-                position="7 0 0"></a-entity>
+                position="7 0 0"></a-entity> <!--Venus-->
 
             <a-entity geometry="primitive: sphere; radius: 0.046"
                 material="color: #ffdd40; color: #9aa9a9;"
-                position="10 0 0"></a-entity>
+                position="10 0 0"><!--Tierra-->
+
+                <a-entity animation="property: rotation; from: 0 0 0; to: 0 360 0;
+                easing: linear; loop: true;  dur: 20000;">
+
+                <a-entity geometry="primitive: sphere; radius: 0.0125"
+                material="color: #ffdd40; color: #000000;"
+                position="0.55 0 0"></a-entity> <!--Luna-->
+
+                </a-entity>
+            </a-entity> 
 
             <a-entity geometry="primitive: sphere; radius: 0.0245"
                 material="color: #ffdd40; color: #9aa9a9;"
-                position="15 0 0"></a-entity>
+                position="15 0 0"></a-entity> <!--Marte-->
 
             <a-entity geometry="primitive: sphere; radius: 0.5"
                 material="color: #ffdd40; color: #9aa9a9;"
-                position="24 0 0"></a-entity>
+                position="24 0 0"> <!--Júpiter-->
+
+                <a-entity animation="property: rotation; from: 0 0 0; to: 0 360 0;
+                easing: linear; loop: true;  dur: 20000;">
+
+                <a-entity geometry="primitive: sphere; radius: 0.019"
+                material="color: #ffdd40; color: #000000;"
+                position="0.55 0 0"></a-entity> <!--Ganimedes-->
+
+                </a-entity>
+            </a-entity> 
 
             <a-entity geometry="primitive: sphere; radius: 0.42"
                 material="color: #ffdd40; color: #9aa9a9;"
-                position="35 0 0"></a-entity>
+                position="35 0 0"></a-entity> <!--Saturno-->
 
             <a-entity geometry="primitive: sphere; radius: 0.18"
                 material="color: #ffdd40; color: #9aa9a9;"
-                position="50 0 0"></a-entity>
+                position="50 0 0"></a-entity> <!--Urano-->
 
             <a-entity geometry="primitive: sphere; radius: 0.175"
                 material="color: #ffdd40; color: #9aa9a9;"
-                position="80 0 0"></a-entity>
+                position="80 0 0"></a-entity> <!--Neptuno-->
 
         </a-entity>
         
