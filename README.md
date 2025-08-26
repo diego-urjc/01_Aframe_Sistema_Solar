@@ -1,6 +1,6 @@
 # 02_AFrame_Intro_Sistema_Solar
 
-Repositorio plantilla para la práctica "Sistema Solar" del tema "Introducción a A-Frame". Este sitio debería desplegarse de forma que el contenido de su directorio public quedará disponibles en GitLab Pages.
+Repositorio plantilla para la práctica "Sistema Solar" del tema "Introducción a A-Frame"
 
 URL: https://gitlab-pages.eif.urjc.es/02-aframe-intro-sistema-solar-9c065c/
 
